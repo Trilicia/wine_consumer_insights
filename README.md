@@ -10,6 +10,18 @@ Como transformar a sustentabilidade em uma proposta de valor relevante para cons
 
 Investigar como o perfil dos consumidores, os hábitos de consumo, os critérios de compra e os canais de aquisição podem contribuir para uma estratégia de posicionamento de vinhos sustentáveis.
 
+Além da análise, o projeto busca demonstrar competências profissionais em:
+
+* estruturação e gestão de projetos de dados;
+* auditoria e qualidade de dados;
+* tratamento e padronização;
+* engenharia de variáveis;
+* modelagem relacional;
+* consultas SQL;
+* análise exploratória;
+* visualização de dados;
+* comunicação de resultados para o negócio.
+
 ## Tecnologias utilizadas
 
 * Python
@@ -21,7 +33,8 @@ Investigar como o perfil dos consumidores, os hábitos de consumo, os critérios
 * HTML
 * CSS
 * JavaScript
-* Git e GitHub
+* Git
+* GitHub
 
 ## Etapas do projeto
 
@@ -34,14 +47,20 @@ Investigar como o perfil dos consumidores, os hábitos de consumo, os critérios
 * [x] Modelagem do banco SQLite
 * [x] Criação de views e consultas SQL
 * [x] Testes de qualidade dos dados
-* [ ] Análise exploratória
-* [ ] Criação dos gráficos
+* [x] Análise exploratória
+* [x] Criação dos gráficos
 * [ ] Construção do dashboard interativo
 * [ ] Elaboração das recomendações finais
 
-## Base de dados
+## Sobre a base de dados
 
-A base contém 261 respostas anônimas de uma pesquisa sobre:
+Os dados utilizados neste projeto fazem parte de uma pesquisa científica mais ampla. Para preservar o escopo e a integridade do estudo original, foi utilizado apenas um recorte anonimizado da base.
+
+A planilha disponibilizada para este projeto de portfólio não contém todas as perguntas e colunas do instrumento de pesquisa. Foram selecionadas somente as variáveis necessárias para a análise do comportamento dos consumidores de vinho e da percepção de sustentabilidade associada aos vinhos PIWI.
+
+Portanto, este projeto apresenta uma análise complementar e independente, desenvolvida para demonstrar competências em tratamento, modelagem, análise e visualização de dados. Ele não substitui, reproduz integralmente ou antecipa os resultados da pesquisa científica original.
+
+O recorte utilizado contém 261 respostas anônimas e 16 variáveis relacionadas a:
 
 * perfil sociodemográfico;
 * frequência de consumo de vinho;
@@ -52,13 +71,13 @@ A base contém 261 respostas anônimas de uma pesquisa sobre:
 * atributos valorizados em vinhos sustentáveis;
 * importância da comunicação de sustentabilidade no rótulo.
 
-O arquivo original é mantido em:
+O arquivo original utilizado no projeto é mantido em:
 
 ```text
 data/raw/dados_piwi.xlsx
 ```
 
-A base original não é alterada durante o processamento.
+A base original não é alterada durante o processamento. Todas as transformações são realizadas em arquivos separados dentro de `data/processed`.
 
 ## Estrutura do projeto
 
@@ -70,6 +89,7 @@ piwi_consumer_insights/
 │   └── raw/
 │       └── dados_piwi.xlsx
 ├── reports/
+│   └── figures/
 ├── sql/
 │   ├── 01_create_views.sql
 │   ├── 02_business_queries.sql
@@ -89,14 +109,14 @@ piwi_consumer_insights/
 
 ## Pipeline de dados
 
-O projeto foi dividido em etapas independentes e reproduzíveis.
+O projeto foi estruturado em etapas independentes e reproduzíveis.
 
 ### 1. Auditoria inicial
 
-O arquivo `01_data_audit.py` verifica:
+O arquivo `01_data_audit.py` realiza uma análise inicial da base e verifica:
 
-* dimensões da base;
-* nomes das colunas;
+* quantidade de linhas e colunas;
+* nomes das variáveis;
 * tipos dos dados;
 * valores nulos;
 * registros duplicados;
@@ -104,6 +124,8 @@ O arquivo `01_data_audit.py` verifica:
 * período da coleta;
 * consentimento dos participantes;
 * quantidade de valores únicos.
+
+Essa etapa permite conhecer a estrutura dos dados antes de qualquer transformação.
 
 ### 2. Limpeza e padronização
 
@@ -115,7 +137,8 @@ O arquivo `02_data_cleaning.py` realiza:
 * validação do consentimento;
 * remoção de duplicatas;
 * padronização do perfil do consumidor;
-* criação de um identificador anônimo.
+* criação de um identificador anônimo;
+* validações após a limpeza.
 
 O resultado é exportado para:
 
@@ -123,19 +146,21 @@ O resultado é exportado para:
 data/processed/respondents_clean.csv
 ```
 
-### 3. Tratamento das múltiplas escolhas
+### 3. Tratamento das perguntas de múltipla escolha
 
 O arquivo `03_multiselect_processing.py` transforma as perguntas de múltipla escolha em tabelas ponte.
 
-A separação não utiliza apenas `split(",")`, porque algumas alternativas possuem vírgulas no próprio texto, como:
+A separação não utiliza apenas `split(",")`, porque algumas alternativas possuem vírgulas dentro do próprio texto, como:
 
 ```text
 Recomendação (amigos, especialistas, avaliações)
 ```
 
-O processamento utiliza um catálogo controlado com as alternativas oficiais e preserva respostas livres para revisão.
+Uma separação simples por vírgulas dividiria incorretamente essa alternativa.
 
-São geradas as seguintes tabelas:
+O processamento utiliza um catálogo controlado com as alternativas oficiais. As respostas livres ou não reconhecidas são preservadas em uma tabela específica para revisão.
+
+São gerados os seguintes arquivos:
 
 ```text
 bridge_wine_types.csv
@@ -147,14 +172,16 @@ unclassified_answers.csv
 
 ### 4. Engenharia de variáveis
 
-O arquivo `04_feature_engineering.py` cria:
+O arquivo `04_feature_engineering.py` transforma respostas categóricas em variáveis apropriadas para análises e segmentações.
+
+São criadas as seguintes variáveis:
 
 * frequência mensal estimada;
 * intensidade de consumo;
 * pontuação de importância do rótulo;
 * indicador de alta importância;
 * nível de conhecimento do consumidor;
-* segmentos estratégicos.
+* segmento estratégico.
 
 O resultado é exportado para:
 
@@ -171,21 +198,50 @@ O banco contém:
 * uma tabela principal de respondentes;
 * quatro tabelas ponte;
 * uma tabela de respostas não classificadas;
-* índices para otimizar as consultas;
-* validações de unicidade e integridade referencial.
+* índices para otimização das consultas;
+* validações de unicidade;
+* verificações de integridade referencial.
+
+O arquivo do banco é gerado em:
+
+```text
+data/processed/piwi_consumer_insights.db
+```
+
+Como o banco pode ser reconstruído pelo pipeline, o arquivo com extensão `.db` não é enviado ao GitHub.
 
 ### 6. Análise SQL
 
-O arquivo `06_sql_analysis.py` executa as views analíticas e exporta os resultados para a pasta `reports`.
+O arquivo `06_sql_analysis.py` cria e consulta as views analíticas do projeto.
 
-As consultas respondem perguntas como:
+As consultas respondem a perguntas como:
 
-* Quais são os principais fatores considerados na compra?
+* Quais são os principais indicadores da pesquisa?
+* Quais fatores são mais considerados na compra de vinho?
 * Quais atributos são mais valorizados em vinhos sustentáveis?
-* Quais canais são mais utilizados?
-* Como a importância do rótulo varia por perfil?
-* Quais são os segmentos prioritários?
+* Quais são os canais de aquisição mais utilizados?
+* Como a importância da sustentabilidade no rótulo varia entre os perfis?
+* Quais são os segmentos estratégicos prioritários?
 * Quais canais são utilizados pelo público mais interessado em sustentabilidade?
+
+Os resultados são exportados como arquivos CSV para a pasta `reports`.
+
+### 7. Análise exploratória
+
+O arquivo `07_exploratory_analysis.py` utiliza os dados processados e os resultados das consultas SQL para criar:
+
+* gráficos dos fatores de compra;
+* gráficos dos atributos de vinhos sustentáveis;
+* distribuição da importância da sustentabilidade no rótulo;
+* distribuição dos segmentos estratégicos;
+* indicadores resumidos;
+* sumário executivo.
+
+Os gráficos são salvos em:
+
+```text
+reports/figures/
+```
 
 ## Modelagem dos dados
 
@@ -202,24 +258,33 @@ fact_respondents
         └── bridge_sustainable_attributes
 ```
 
-Essa estrutura evita dupla contagem e facilita análises com Python, SQL e ferramentas de visualização.
+Um participante pode selecionar vários fatores, e cada fator pode ser selecionado por vários participantes.
+
+Essa estrutura:
+
+* evita duplicações na tabela principal;
+* reduz o risco de dupla contagem;
+* facilita consultas SQL;
+* permite calcular percentuais com participantes distintos;
+* prepara os dados para o dashboard interativo.
 
 ## Qualidade dos dados
 
-O projeto verifica:
+O projeto inclui verificações para identificar:
 
-* identificadores duplicados;
 * valores nulos;
+* registros duplicados;
+* identificadores duplicados;
 * datas inválidas;
 * valores fora dos domínios esperados;
-* pontuações inválidas;
+* pontuações de importância inválidas;
 * indicadores binários inválidos;
 * registros órfãos nas tabelas ponte;
-* respostas não classificadas.
+* respostas livres ou não classificadas.
 
-As respostas livres são preservadas e não são descartadas silenciosamente.
+As respostas não reconhecidas são preservadas para revisão e não são descartadas silenciosamente.
 
-## Como executar
+## Como executar o projeto
 
 ### 1. Criar o ambiente virtual
 
@@ -241,7 +306,7 @@ python -m pip install -r requirements.txt
 
 ### 4. Executar o pipeline
 
-Os arquivos devem ser executados na ordem:
+Os arquivos devem ser executados na seguinte ordem:
 
 ```powershell
 python src/01_data_audit.py
@@ -253,18 +318,30 @@ python src/06_sql_analysis.py
 python src/07_exploratory_analysis.py
 ```
 
+Cada etapa utiliza os arquivos produzidos pela etapa anterior.
+
 ## Resultados preliminares
 
-Os resultados indicam que:
+Os resultados iniciais indicam que:
 
 * 82,4% dos participantes consideram muito ou extremamente importante comunicar sustentabilidade no rótulo;
 * a qualidade sensorial é o atributo mais valorizado em vinhos sustentáveis;
 * o preço é o principal fator geral considerado na compra;
+* clareza e transparência das informações no rótulo apresentam relevância para a escolha de produtos sustentáveis;
 * existe uma possível diferença entre a valorização declarada da sustentabilidade e sua influência espontânea na decisão de compra.
 
-Esses resultados serão aprofundados na análise exploratória e no dashboard interativo.
+A recomendação preliminar é posicionar os vinhos PIWI por meio da combinação entre:
+
+* qualidade sensorial;
+* preço competitivo;
+* clareza das informações;
+* sustentabilidade ambiental comprovada.
+
+A sustentabilidade deve complementar a proposta de valor do produto, e não substituir atributos tradicionais como qualidade e preço.
 
 ## Limitações
+
+A base utilizada representa apenas um recorte de uma pesquisa científica mais ampla. Algumas perguntas e variáveis foram intencionalmente omitidas para preservar o estudo original. Portanto, as conclusões deste projeto estão limitadas às informações presentes na planilha disponibilizada.
 
 A pesquisa utiliza uma amostra de conveniência, com concentração de participantes:
 
@@ -272,17 +349,21 @@ A pesquisa utiliza uma amostra de conveniência, com concentração de participa
 * moradores de zona urbana;
 * com escolaridade elevada.
 
-Os resultados descrevem os participantes da pesquisa, mas não devem ser generalizados automaticamente para toda a população brasileira.
+Os resultados descrevem os participantes da pesquisa e não devem ser generalizados automaticamente para toda a população brasileira.
 
-A importância declarada da sustentabilidade também não representa, necessariamente, comportamento real de compra.
+A importância declarada da sustentabilidade também não representa necessariamente um comportamento real de compra.
+
+As estimativas de frequência mensal foram criadas exclusivamente para fins analíticos e não representam medições exatas do consumo individual.
 
 ## Ética e privacidade
 
-A base não contém nomes, e-mails ou outros identificadores pessoais diretos.
+A base utilizada no projeto não contém nomes, e-mails ou outros identificadores pessoais diretos.
 
-As informações demográficas são utilizadas somente de forma agregada. Grupos com poucos participantes não serão utilizados para conclusões individuais ou generalizações.
+As informações demográficas são analisadas somente de forma agregada. Grupos com poucos participantes não devem ser utilizados para conclusões individuais ou generalizações.
 
-O consentimento é validado antes do processamento dos dados.
+O consentimento dos participantes é validado antes do processamento dos dados.
+
+O conjunto disponibilizado neste repositório representa apenas um recorte anonimizado. A base completa e as demais perguntas da pesquisa científica original não fazem parte deste projeto.
 
 ## Autoria
 
