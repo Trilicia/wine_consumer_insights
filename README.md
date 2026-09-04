@@ -2,6 +2,12 @@
 
 Projeto de análise de dados sobre o comportamento de consumidores de vinho e a percepção de sustentabilidade em vinhos produzidos com uvas PIWI.
 
+## Dashboard interativo
+
+[🔗 Acessar o dashboard PIWI Consumer Insights](https://trilicia.github.io/piwi_consumer_insights/dashboard/)
+
+O dashboard permite explorar os resultados por região, faixa etária, perfil de consumo, frequência e escolaridade. Os filtros atualizam automaticamente os indicadores e gráficos.
+
 ## Problema de negócio
 
 Como transformar a sustentabilidade em uma proposta de valor relevante para consumidores de vinho, considerando seus perfis, hábitos de consumo, critérios de compra e canais de aquisição?
@@ -319,6 +325,13 @@ python src/07_exploratory_analysis.py
 ```
 
 Cada etapa utiliza os arquivos produzidos pela etapa anterior.
+
+## Visualização local do dashboard
+
+Para executar o dashboard localmente:
+
+```powershell
+python -m http.server 8000 --directory dashboard
 
 ## Resultados preliminares
 
