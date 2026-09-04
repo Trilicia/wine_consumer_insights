@@ -1,6 +1,18 @@
-# PIWI Consumer Insights
+# Wine Consumer Insights
 
-Projeto de análise de dados sobre o comportamento de consumidores de vinho e a percepção de sustentabilidade em vinhos produzidos com uvas PIWI.
+Projeto end-to-end de análise de dados sobre o comportamento do
+consumidor de vinhos, desenvolvido desde a auditoria e o tratamento
+da base até a construção de indicadores e a publicação de um
+dashboard interativo.
+
+O projeto contempla limpeza e padronização dos dados, controle de
+qualidade, tratamento de respostas de múltipla escolha, engenharia
+de variáveis, segmentação de consumidores, modelagem SQL, análise
+exploratória e visualização interativa.
+
+Para preservar o ineditismo da pesquisa original, perguntas,
+variáveis e resultados específicos foram omitidos, anonimizados,
+agregados ou substituídos por informações demonstrativas.
 
 ## Dashboard interativo
 
