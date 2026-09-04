@@ -49,7 +49,7 @@ Além da análise, o projeto busca demonstrar competências profissionais em:
 * [x] Testes de qualidade dos dados
 * [x] Análise exploratória
 * [x] Criação dos gráficos
-* [ ] Construção do dashboard interativo
+* [x] Construção do dashboard interativo
 * [ ] Elaboração das recomendações finais
 
 ## Sobre a base de dados

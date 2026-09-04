@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Dashboard interativo sobre comportamento de consumidores de vinho e sustentabilidade em vinhos PIWI."
+    >
+
+    <title>PIWI Consumer Insights</title>
+
+    <!-- Fonte utilizada no dashboard -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Arquivo de estilos -->
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- ==================================================
+         CABEÇALHO
+    =================================================== -->
+
+    <header class="topbar">
+
+        <div class="title-container">
+
+            <p class="eyebrow">
+                Pesquisa de mercado • 2026
+            </p>
+
+            <h1>
+                PIWI Consumer Insights
+            </h1>
+
+            <p class="subtitle">
+                Comportamento de compra e percepção de
+                sustentabilidade em vinhos
+            </p>
+
+        </div>
+
+
+        <div class="sample-badge">
+
+            <span class="status-dot"></span>
+
+            <strong id="sampleCount">
+                261
+            </strong>
+
+            respostas analisadas
+
+        </div>
+
+    </header>
+
+
+    <!-- ==================================================
+         CONTEÚDO PRINCIPAL
+    =================================================== -->
+
+    <main class="dashboard-container">
+
+
+        <!-- ==============================================
+             FILTROS
+        =============================================== -->
+
+        <aside
+            class="filters-panel"
+            aria-label="Filtros do dashboard"
+        >
+
+            <div class="filters-header">
+
+                <div>
+
+                    <p class="eyebrow">
+                        Explorar dados
+                    </p>
+
+                    <h2>
+                        Filtros
+                    </h2>
+
+                </div>
+
+
+                <button
+                    id="clearFilters"
+                    type="button"
+                >
+                    Limpar
+                </button>
+
+            </div>
+
+
+            <label for="filterRegion">
+
+                Região
+
+                <select id="filterRegion">
+
+                    <option value="">
+                        Todas
+                    </option>
+
+                </select>
+
+            </label>
+
+
+            <label for="filterAge">
+
+                Faixa etária
+
+                <select id="filterAge">
+
+                    <option value="">
+                        Todas
+                    </option>
+
+                </select>
+
+            </label>
+
+
+            <label for="filterProfile">
+
+                Perfil de consumo
+
+                <select id="filterProfile">
+
+                    <option value="">
+                        Todos
+                    </option>
+
+                </select>
+
+            </label>
+
+
+            <label for="filterFrequency">
+
+                Frequência de consumo
+
+                <select id="filterFrequency">
+
+                    <option value="">
+                        Todas
+                    </option>
+
+                </select>
+
+            </label>
+
+
+            <label for="filterEducation">
+
+                Escolaridade
+
+                <select id="filterEducation">
+
+                    <option value="">
+                        Todas
+                    </option>
+
+                </select>
+
+            </label>
+
+
+            <div
+                class="filter-status"
+                aria-live="polite"
+            >
+
+                <span id="filteredCount">
+                    261
+                </span>
+
+                de 261 participantes
+
+            </div>
+
+
+            <p class="method-note">
+
+                Amostra de conveniência. Os percentuais
+                descrevem os participantes e não representam
+                automaticamente a população brasileira.
+
+            </p>
+
+        </aside>
+
+
+        <!-- ==============================================
+             PAINEL DE RESULTADOS
+        =============================================== -->
+
+        <section class="dashboard-content">
+
+
+            <!-- ==========================================
+                 INDICADORES
+            =========================================== -->
+
+            <section
+                class="kpi-grid"
+                aria-label="Indicadores principais"
+            >
+
+
+                <article class="kpi-card">
+
+                    <p>
+                        Participantes
+                    </p>
+
+                    <strong id="kpiRespondents">
+                        261
+                    </strong>
+
+                    <span>
+                        respostas consentidas
+                    </span>
+
+                </article>
+
+
+                <article class="kpi-card featured">
+
+                    <p>
+                        Alta importância do rótulo
+                    </p>
+
+                    <strong id="kpiHighImportance">
+                        82,4%
+                    </strong>
+
+                    <span>
+                        muito ou extremamente importante
+                    </span>
+
+                </article>
+
+
+                <article class="kpi-card">
+
+                    <p>
+                        Importância média
+                    </p>
+
+                    <strong id="kpiAverageImportance">
+                        3,18
+                    </strong>
+
+                    <span>
+                        escala ordinal de 1 a 4
+                    </span>
+
+                </article>
+
+
+                <article class="kpi-card">
+
+                    <p>
+                        Consumo estimado
+                    </p>
+
+                    <strong id="kpiFrequency">
+                        5,6
+                    </strong>
+
+                    <span>
+                        vezes por mês
+                    </span>
+
+                </article>
+
+            </section>
+
+
+            <!-- ==========================================
+                 INSIGHT PRINCIPAL
+            =========================================== -->
+
+            <section class="insight-card">
+
+                <div class="insight-symbol">
+                    !
+                </div>
+
+
+                <div>
+
+                    <p class="eyebrow">
+                        Insight central
+                    </p>
+
+                    <h2>
+                        Sustentabilidade gera interesse,
+                        mas não decide a compra sozinha.
+                    </h2>
+
+                    <p id="insightText">
+
+                        A comunicação dos vinhos PIWI deve
+                        combinar qualidade sensorial, preço
+                        competitivo e benefícios ambientais
+                        comprovados.
+
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==========================================
+                 GRÁFICOS
+            =========================================== -->
+
+            <section class="charts-grid">
+
+
+                <article class="chart-card wide">
+
+                    <div class="chart-header">
+
+                        <div>
+
+                            <p class="eyebrow">
+                                Decisão de compra
+                            </p>
+
+                            <h2>
+                                Fatores considerados
+                            </h2>
+
+                        </div>
+
+                        <span>
+                            Seleção múltipla
+                        </span>
+
+                    </div>
+
+
+                    <div class="chart-container">
+
+                        <canvas id="purchaseFactorsChart">
+
+                        </canvas>
+
+                    </div>
+
+                </article>
+
+
+                <article class="chart-card">
+
+                    <div class="chart-header">
+
+                        <div>
+
+                            <p class="eyebrow">
+                                Comunicação
+                            </p>
+
+                            <h2>
+                                Importância no rótulo
+                            </h2>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chart-container donut-container">
+
+                        <canvas id="importanceChart">
+
+                        </canvas>
+
+                    </div>
+
+                </article>
+
+
+                <article class="chart-card wide">
+
+                    <div class="chart-header">
+
+                        <div>
+
+                            <p class="eyebrow">
+                                Proposta de valor
+                            </p>
+
+                            <h2>
+                                Atributos de vinhos sustentáveis
+                            </h2>
+
+                        </div>
+
+                        <span>
+                            Seleção múltipla
+                        </span>
+
+                    </div>
+
+
+                    <div class="chart-container">
+
+                        <canvas id="sustainableAttributesChart">
+
+                        </canvas>
+
+                    </div>
+
+                </article>
+
+
+                <article class="chart-card">
+
+                    <div class="chart-header">
+
+                        <div>
+
+                            <p class="eyebrow">
+                                Ponto de venda
+                            </p>
+
+                            <h2>
+                                Canais de aquisição
+                            </h2>
+
+                        </div>
+
+                        <span>
+                            Seleção múltipla
+                        </span>
+
+                    </div>
+
+
+                    <div class="chart-container">
+
+                        <canvas id="purchaseChannelsChart">
+
+                        </canvas>
+
+                    </div>
+
+                </article>
+
+            </section>
+
+
+            <!-- ==========================================
+                 RODAPÉ
+            =========================================== -->
+
+            <footer>
+
+                <span>
+                    Dados anonimizados • Atualização pelos filtros
+                </span>
+
+                <span>
+                    Análise: Trilícia Margarida Gomes
+                </span>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+
+    <!-- Biblioteca utilizada para os gráficos -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/chart.js"
+    ></script>
+
+    <!-- Dados produzidos pelo Python -->
+    <script src="data.js"></script>
+
+    <!-- Funções interativas -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
