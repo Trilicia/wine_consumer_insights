@@ -4,9 +4,7 @@ from pathlib import Path
 import pandas as pd
 
 
-# ==========================================================
-# 1. CONFIGURAÇÃO DOS CAMINHOS
-# ==========================================================
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
@@ -21,9 +19,7 @@ OUTPUT_FILE = PROCESSED_DIR / "respondents_clean.csv"
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
 
-# ==========================================================
-# 2. CARREGAMENTO DA BASE ORIGINAL
-# ==========================================================
+
 
 df = pd.read_excel(RAW_FILE, sheet_name=0)
 
@@ -36,9 +32,7 @@ print("=" * 60)
 print(f"\nRegistros carregados: {initial_rows}")
 
 
-# ==========================================================
-# 3. PADRONIZAÇÃO DOS NOMES ORIGINAIS
-# ==========================================================
+
 
 def normalize_header(column_name):
     """
@@ -63,9 +57,6 @@ df.columns = [
 ]
 
 
-# ==========================================================
-# 4. RENOMEAÇÃO DAS COLUNAS
-# ==========================================================
 
 column_names = [
     "submitted_at",
@@ -101,9 +92,6 @@ df.columns = column_names
 print(f"Colunas padronizadas: {len(df.columns)}")
 
 
-# ==========================================================
-# 5. TRATAMENTO DA DATA
-# ==========================================================
 
 df["submitted_at"] = pd.to_datetime(
     df["submitted_at"],
@@ -115,9 +103,6 @@ invalid_dates = df["submitted_at"].isna().sum()
 print(f"Datas inválidas encontradas: {invalid_dates}")
 
 
-# ==========================================================
-# 6. REMOÇÃO DE ESPAÇOS NOS TEXTOS
-# ==========================================================
 
 text_columns = df.select_dtypes(
     include="object"
@@ -133,9 +118,6 @@ for column in text_columns:
     )
 
 
-# ==========================================================
-# 7. VALIDAÇÃO DO CONSENTIMENTO
-# ==========================================================
 
 accepted_consent = "Sim, aceito participar"
 
@@ -155,9 +137,7 @@ print(
 )
 
 
-# ==========================================================
-# 8. REMOÇÃO DE DUPLICATAS
-# ==========================================================
+
 
 duplicate_rows = df.duplicated().sum()
 
@@ -166,9 +146,7 @@ df = df.drop_duplicates().reset_index(drop=True)
 print(f"Registros duplicados removidos: {duplicate_rows}")
 
 
-# ==========================================================
-# 9. PADRONIZAÇÃO DA ZONA DE RESIDÊNCIA
-# ==========================================================
+
 
 residence_zone_map = {
     "Zona urbana": "Zona urbana",
@@ -183,9 +161,7 @@ df["residence_zone"] = (
 )
 
 
-# ==========================================================
-# 10. PADRONIZAÇÃO DO PERFIL DO CONSUMIDOR
-# ==========================================================
+
 
 def standardize_consumer_profile(value):
     """
@@ -227,9 +203,7 @@ df["consumer_profile"] = (
 )
 
 
-# ==========================================================
-# 11. CRIAÇÃO DO IDENTIFICADOR ANÔNIMO
-# ==========================================================
+
 
 df.insert(
     0,
@@ -238,9 +212,6 @@ df.insert(
 )
 
 
-# ==========================================================
-# 12. ORGANIZAÇÃO DAS COLUNAS
-# ==========================================================
 
 column_order = [
     "respondent_id",
@@ -267,9 +238,6 @@ column_order = [
 df = df[column_order]
 
 
-# ==========================================================
-# 13. VALIDAÇÕES FINAIS
-# ==========================================================
 
 final_rows = len(df)
 
@@ -303,9 +271,6 @@ if duplicate_ids > 0:
     )
 
 
-# ==========================================================
-# 14. EXPORTAÇÃO DA BASE TRATADA
-# ==========================================================
 
 df.to_csv(
     OUTPUT_FILE,
