@@ -1,0 +1,785 @@
+﻿respondent_id,option
+1,Vinho branco seco
+2,Vinho tinto seco
+2,Vinho branco seco
+2,Vinho espumante
+3,Vinho tinto seco
+3,Vinho branco seco
+3,Vinho rosé
+4,Vinho tinto seco
+4,Vinho demi-sec
+5,Vinho branco seco
+5,Vinho espumante
+5,Vinho suave
+6,Não tenho preferência definida
+7,Vinho tinto seco
+7,Vinho branco seco
+7,Vinho rosé
+7,Vinho espumante
+8,Vinho tinto seco
+8,Vinho branco seco
+8,Vinho rosé
+8,Vinho espumante
+8,Vinho licoroso e/ou fortificado
+9,Vinho tinto seco
+9,Vinho rosé
+9,Vinho espumante
+10,Vinho rosé
+10,Vinho espumante
+10,Vinho suave
+11,Não tenho preferência definida
+12,Vinho tinto seco
+12,Vinho rosé
+12,Vinho suave
+12,Vinho demi-sec
+13,Vinho suave
+14,Vinho tinto seco
+14,Vinho rosé
+14,Vinho espumante
+15,Vinho suave
+16,Vinho tinto seco
+16,Vinho branco seco
+16,Vinho rosé
+16,Vinho espumante
+17,Vinho tinto seco
+17,Vinho branco seco
+17,Vinho rosé
+17,Vinho espumante
+18,Vinho suave
+19,Vinho suave
+20,Vinho tinto seco
+20,Vinho branco seco
+20,Vinho rosé
+20,Vinho espumante
+20,Vinho demi-sec
+21,Vinho tinto seco
+22,Vinho tinto seco
+22,Vinho branco seco
+22,Vinho rosé
+22,Vinho espumante
+22,Vinho licoroso e/ou fortificado
+23,Vinho tinto seco
+23,Vinho espumante
+24,Vinho tinto seco
+24,Vinho branco seco
+24,Vinho rosé
+24,Vinho espumante
+24,Vinho demi-sec
+25,Vinho tinto seco
+25,Vinho branco seco
+25,Vinho rosé
+26,Vinho tinto seco
+26,Vinho branco seco
+26,Vinho rosé
+26,Vinho espumante
+26,Vinho licoroso e/ou fortificado
+27,Vinho tinto seco
+27,Vinho branco seco
+27,Vinho rosé
+28,Vinho tinto seco
+28,Vinho espumante
+28,Vinho demi-sec
+29,Vinho tinto seco
+29,Vinho rosé
+29,Vinho demi-sec
+30,Vinho tinto seco
+30,Vinho branco seco
+30,Vinho espumante
+31,Vinho tinto seco
+31,Vinho rosé
+31,Vinho espumante
+31,Vinho licoroso e/ou fortificado
+32,Vinho branco seco
+33,Vinho tinto seco
+33,Vinho branco seco
+33,Vinho espumante
+34,Vinho tinto seco
+35,Vinho tinto seco
+35,Vinho branco seco
+35,Vinho rosé
+35,Vinho espumante
+36,Vinho tinto seco
+37,Vinho tinto seco
+37,Vinho rosé
+37,Vinho suave
+38,Vinho tinto seco
+39,Vinho espumante
+39,Vinho suave
+39,Vinho licoroso e/ou fortificado
+40,Vinho tinto seco
+40,Vinho branco seco
+40,Vinho rosé
+40,Vinho espumante
+41,Vinho espumante
+42,Vinho branco seco
+42,Vinho suave
+43,Vinho tinto seco
+43,Vinho branco seco
+43,Vinho espumante
+44,Vinho tinto seco
+44,Vinho branco seco
+44,Vinho espumante
+45,Vinho tinto seco
+45,Vinho branco seco
+45,Vinho rosé
+45,Vinho espumante
+45,Vinho demi-sec
+45,Vinho licoroso e/ou fortificado
+46,Vinho tinto seco
+46,Vinho rosé
+46,Vinho espumante
+47,Vinho tinto seco
+47,Vinho branco seco
+47,Vinho rosé
+47,Vinho espumante
+48,Vinho tinto seco
+48,Vinho branco seco
+48,Vinho rosé
+48,Vinho espumante
+48,Vinho licoroso e/ou fortificado
+49,Vinho tinto seco
+49,Vinho branco seco
+49,Vinho rosé
+49,Vinho espumante
+50,Vinho rosé
+50,Vinho espumante
+50,Vinho suave
+51,Vinho rosé
+51,Vinho suave
+52,Vinho tinto seco
+52,Vinho branco seco
+52,Vinho espumante
+52,Vinho suave
+52,Vinho demi-sec
+53,Vinho suave
+54,Vinho rosé
+54,Vinho suave
+55,Vinho tinto seco
+55,Vinho espumante
+55,Vinho demi-sec
+56,Vinho branco seco
+56,Vinho rosé
+56,Vinho espumante
+57,Vinho tinto seco
+57,Vinho branco seco
+57,Vinho espumante
+58,Não tenho preferência definida
+59,Vinho tinto seco
+59,Vinho branco seco
+59,Vinho rosé
+59,Vinho espumante
+59,Vinho demi-sec
+60,Vinho tinto seco
+60,Vinho branco seco
+60,Vinho rosé
+60,Vinho espumante
+60,Vinho demi-sec
+61,Vinho tinto seco
+61,Vinho branco seco
+61,Vinho rosé
+62,Vinho tinto seco
+62,Vinho branco seco
+62,Vinho rosé
+63,Vinho tinto seco
+63,Vinho branco seco
+63,Vinho rosé
+63,Vinho espumante
+64,Vinho rosé
+64,Vinho espumante
+64,Vinho suave
+65,Vinho tinto seco
+65,Vinho branco seco
+65,Vinho rosé
+65,Vinho espumante
+66,Vinho tinto seco
+66,Vinho branco seco
+66,Vinho rosé
+66,Vinho espumante
+67,Vinho tinto seco
+67,Vinho rosé
+68,Vinho rosé
+68,Vinho suave
+69,Vinho tinto seco
+70,Vinho tinto seco
+71,Vinho suave
+72,Vinho tinto seco
+72,Vinho branco seco
+72,Vinho rosé
+72,Vinho espumante
+72,Vinho demi-sec
+72,Vinho licoroso e/ou fortificado
+73,Vinho tinto seco
+73,Vinho branco seco
+73,Vinho espumante
+74,Vinho tinto seco
+74,Vinho rosé
+74,Vinho espumante
+75,Vinho branco seco
+75,Vinho rosé
+76,Vinho tinto seco
+76,Vinho branco seco
+76,Vinho rosé
+76,Vinho espumante
+77,Vinho tinto seco
+77,Vinho rosé
+77,Vinho espumante
+77,Vinho demi-sec
+78,Vinho tinto seco
+78,Vinho branco seco
+78,Vinho rosé
+78,Vinho espumante
+78,Vinho suave
+78,Vinho demi-sec
+79,Vinho rosé
+79,Vinho suave
+79,Vinho demi-sec
+80,Vinho tinto seco
+80,Vinho espumante
+80,Vinho demi-sec
+81,Vinho tinto seco
+81,Vinho branco seco
+81,Vinho rosé
+81,Vinho espumante
+81,Vinho suave
+82,Vinho espumante
+82,Vinho suave
+83,Vinho tinto seco
+83,Vinho branco seco
+83,Vinho rosé
+84,Vinho tinto seco
+84,Vinho branco seco
+84,Vinho rosé
+84,Vinho espumante
+84,Vinho demi-sec
+84,Vinho licoroso e/ou fortificado
+85,Vinho tinto seco
+85,Vinho branco seco
+85,Vinho espumante
+85,Vinho demi-sec
+86,Vinho tinto seco
+86,Vinho rosé
+86,Vinho espumante
+86,Vinho demi-sec
+87,Vinho tinto seco
+87,Vinho rosé
+87,Vinho espumante
+88,Vinho suave
+89,Vinho tinto seco
+89,Vinho branco seco
+89,Vinho rosé
+89,Vinho suave
+90,Vinho rosé
+90,Vinho suave
+91,Vinho tinto seco
+92,Vinho tinto seco
+92,Vinho branco seco
+92,Vinho rosé
+92,Vinho espumante
+92,Vinho suave
+92,Vinho demi-sec
+93,Vinho tinto seco
+94,Vinho tinto seco
+94,Vinho branco seco
+94,Vinho rosé
+94,Vinho espumante
+95,Vinho branco seco
+95,Vinho suave
+96,Vinho tinto seco
+97,Não tenho preferência definida
+98,Vinho tinto seco
+98,Vinho branco seco
+98,Vinho rosé
+98,Vinho espumante
+98,Vinho suave
+98,Vinho demi-sec
+98,Vinho licoroso e/ou fortificado
+99,Vinho branco seco
+100,Vinho tinto seco
+100,Vinho demi-sec
+101,Vinho tinto seco
+101,Vinho rosé
+101,Vinho espumante
+101,Vinho suave
+101,Vinho demi-sec
+102,Vinho tinto seco
+102,Vinho branco seco
+102,Vinho espumante
+102,Vinho suave
+103,Vinho tinto seco
+104,Vinho tinto seco
+104,Vinho branco seco
+105,Vinho tinto seco
+106,Vinho tinto seco
+106,Vinho branco seco
+106,Vinho espumante
+107,Vinho tinto seco
+107,Vinho branco seco
+107,Vinho espumante
+108,Vinho tinto seco
+108,Vinho branco seco
+108,Vinho rosé
+108,Vinho espumante
+109,Vinho tinto seco
+109,Vinho branco seco
+109,Vinho rosé
+109,Vinho espumante
+110,Vinho tinto seco
+110,Vinho branco seco
+110,Vinho espumante
+111,Vinho suave
+112,Vinho tinto seco
+112,Vinho branco seco
+112,Vinho rosé
+112,Vinho espumante
+112,Vinho suave
+112,Vinho demi-sec
+113,Não tenho preferência definida
+114,Vinho rosé
+114,Vinho espumante
+114,Vinho suave
+115,Vinho tinto seco
+115,Vinho espumante
+116,Vinho tinto seco
+116,Vinho branco seco
+116,Vinho rosé
+116,Vinho espumante
+117,Vinho tinto seco
+117,Vinho branco seco
+117,Vinho rosé
+117,Vinho espumante
+118,Vinho tinto seco
+118,Vinho branco seco
+118,Vinho licoroso e/ou fortificado
+119,Vinho tinto seco
+119,Vinho branco seco
+119,Vinho demi-sec
+120,Vinho tinto seco
+120,Vinho branco seco
+120,Vinho demi-sec
+121,Vinho tinto seco
+122,Vinho tinto seco
+122,Vinho branco seco
+122,Vinho rosé
+122,Vinho espumante
+123,Vinho tinto seco
+123,Vinho branco seco
+123,Vinho espumante
+123,Vinho demi-sec
+124,Vinho tinto seco
+124,Vinho branco seco
+125,Vinho tinto seco
+125,Vinho branco seco
+125,Vinho rosé
+125,Vinho demi-sec
+126,Vinho tinto seco
+126,Vinho branco seco
+126,Vinho rosé
+127,Vinho tinto seco
+127,Vinho branco seco
+128,Vinho tinto seco
+128,Vinho branco seco
+128,Vinho espumante
+128,Vinho licoroso e/ou fortificado
+129,Não tenho preferência definida
+130,Vinho tinto seco
+130,Vinho branco seco
+130,Vinho rosé
+130,Vinho espumante
+131,Vinho branco seco
+131,Vinho rosé
+131,Vinho espumante
+132,Vinho branco seco
+132,Vinho rosé
+132,Vinho espumante
+133,Vinho tinto seco
+134,Vinho tinto seco
+134,Vinho suave
+135,Vinho espumante
+135,Vinho suave
+136,Vinho tinto seco
+136,Vinho branco seco
+136,Vinho espumante
+137,Vinho rosé
+137,Vinho espumante
+137,Vinho suave
+138,Vinho tinto seco
+139,Vinho tinto seco
+139,Vinho branco seco
+139,Vinho demi-sec
+140,Vinho tinto seco
+140,Vinho branco seco
+140,Vinho rosé
+140,Vinho espumante
+140,Vinho demi-sec
+141,Vinho tinto seco
+141,Vinho branco seco
+141,Vinho espumante
+142,Vinho branco seco
+142,Vinho rosé
+143,Vinho tinto seco
+144,Vinho tinto seco
+144,Vinho demi-sec
+145,Vinho tinto seco
+146,Vinho tinto seco
+146,Vinho branco seco
+147,Vinho branco seco
+148,Vinho rosé
+148,Vinho espumante
+148,Vinho suave
+149,Vinho tinto seco
+149,Vinho branco seco
+149,Vinho rosé
+149,Vinho espumante
+149,Vinho demi-sec
+150,Vinho tinto seco
+150,Vinho branco seco
+150,Vinho rosé
+150,Vinho espumante
+150,Vinho demi-sec
+151,Vinho tinto seco
+151,Vinho espumante
+151,Vinho demi-sec
+152,Vinho tinto seco
+152,Vinho branco seco
+152,Vinho rosé
+152,Vinho espumante
+153,Vinho tinto seco
+153,Vinho branco seco
+153,Vinho rosé
+153,Vinho espumante
+153,Vinho licoroso e/ou fortificado
+154,Vinho tinto seco
+154,Vinho rosé
+154,Vinho espumante
+155,Vinho branco seco
+155,Vinho suave
+156,Vinho branco seco
+156,Vinho suave
+157,Vinho tinto seco
+157,Vinho branco seco
+158,Vinho tinto seco
+158,Vinho suave
+159,Vinho tinto seco
+159,Vinho branco seco
+159,Vinho rosé
+159,Vinho espumante
+160,Vinho suave
+161,Vinho tinto seco
+161,Vinho branco seco
+161,Vinho rosé
+162,Vinho tinto seco
+162,Vinho espumante
+163,Vinho espumante
+163,Vinho suave
+164,Vinho tinto seco
+164,Vinho espumante
+165,Vinho tinto seco
+165,Vinho branco seco
+165,Vinho rosé
+165,Vinho espumante
+166,Vinho tinto seco
+166,Vinho branco seco
+166,Vinho rosé
+166,Vinho espumante
+167,Não tenho preferência definida
+168,Vinho tinto seco
+168,Vinho branco seco
+168,Vinho rosé
+168,Vinho espumante
+168,Vinho licoroso e/ou fortificado
+169,Vinho tinto seco
+169,Vinho branco seco
+170,Vinho tinto seco
+170,Vinho branco seco
+170,Vinho rosé
+170,Vinho espumante
+170,Vinho demi-sec
+171,Vinho tinto seco
+171,Vinho branco seco
+171,Vinho rosé
+171,Vinho espumante
+171,Vinho licoroso e/ou fortificado
+172,Vinho tinto seco
+172,Vinho espumante
+173,Vinho tinto seco
+174,Vinho tinto seco
+174,Vinho espumante
+174,Vinho demi-sec
+175,Vinho branco seco
+175,Vinho rosé
+175,Vinho espumante
+176,Vinho tinto seco
+176,Vinho branco seco
+176,Vinho rosé
+176,Vinho espumante
+177,Vinho tinto seco
+177,Vinho branco seco
+177,Vinho espumante
+177,Vinho demi-sec
+177,Vinho licoroso e/ou fortificado
+178,Vinho tinto seco
+178,Vinho branco seco
+178,Vinho rosé
+178,Vinho espumante
+178,Vinho demi-sec
+179,Vinho tinto seco
+179,Vinho espumante
+179,Vinho demi-sec
+179,Vinho licoroso e/ou fortificado
+180,Vinho tinto seco
+180,Vinho branco seco
+180,Vinho espumante
+180,Vinho licoroso e/ou fortificado
+181,Vinho tinto seco
+181,Vinho branco seco
+181,Vinho espumante
+182,Vinho tinto seco
+182,Vinho branco seco
+182,Vinho rosé
+182,Vinho espumante
+183,Vinho tinto seco
+184,Vinho tinto seco
+184,Vinho branco seco
+185,Vinho tinto seco
+185,Vinho branco seco
+185,Vinho rosé
+185,Vinho espumante
+185,Vinho demi-sec
+186,Vinho tinto seco
+186,Vinho branco seco
+186,Vinho espumante
+187,Vinho tinto seco
+187,Vinho branco seco
+187,Vinho rosé
+187,Vinho espumante
+188,Vinho tinto seco
+189,Vinho tinto seco
+189,Vinho branco seco
+190,Vinho tinto seco
+190,Vinho branco seco
+190,Vinho rosé
+190,Vinho espumante
+191,Vinho tinto seco
+191,Vinho branco seco
+191,Vinho rosé
+192,Vinho suave
+193,Vinho tinto seco
+193,Vinho branco seco
+194,Vinho tinto seco
+194,Vinho branco seco
+194,Vinho rosé
+194,Vinho espumante
+195,Vinho tinto seco
+195,Vinho branco seco
+195,Vinho rosé
+195,Vinho espumante
+196,Vinho tinto seco
+196,Vinho branco seco
+196,Vinho rosé
+197,Vinho tinto seco
+197,Vinho branco seco
+197,Vinho espumante
+198,Vinho tinto seco
+198,Vinho branco seco
+198,Vinho rosé
+198,Vinho espumante
+198,Vinho suave
+199,Vinho tinto seco
+199,Vinho branco seco
+199,Vinho rosé
+199,Vinho espumante
+200,Vinho tinto seco
+200,Vinho branco seco
+200,Vinho rosé
+200,Vinho espumante
+201,Vinho tinto seco
+201,Vinho branco seco
+201,Vinho demi-sec
+202,Vinho tinto seco
+202,Vinho branco seco
+202,Vinho rosé
+202,Vinho licoroso e/ou fortificado
+203,Vinho tinto seco
+203,Vinho branco seco
+203,Vinho rosé
+203,Vinho espumante
+204,Não tenho preferência definida
+205,Vinho tinto seco
+205,Vinho rosé
+205,Vinho espumante
+205,Vinho suave
+205,Vinho demi-sec
+206,Vinho tinto seco
+207,Vinho tinto seco
+208,Vinho tinto seco
+208,Vinho rosé
+208,Vinho espumante
+209,Vinho tinto seco
+209,Vinho branco seco
+209,Vinho rosé
+209,Vinho espumante
+209,Vinho licoroso e/ou fortificado
+210,Vinho tinto seco
+210,Vinho branco seco
+210,Vinho espumante
+211,Vinho tinto seco
+211,Vinho branco seco
+211,Vinho rosé
+211,Vinho espumante
+211,Vinho demi-sec
+211,Vinho licoroso e/ou fortificado
+212,Vinho tinto seco
+213,Vinho tinto seco
+213,Vinho branco seco
+213,Vinho rosé
+214,Vinho tinto seco
+214,Vinho branco seco
+214,Vinho espumante
+215,Vinho branco seco
+215,Vinho rosé
+215,Vinho espumante
+215,Vinho suave
+216,Vinho tinto seco
+216,Vinho rosé
+216,Vinho espumante
+217,Vinho tinto seco
+217,Vinho branco seco
+217,Vinho rosé
+217,Vinho espumante
+217,Vinho demi-sec
+218,Vinho branco seco
+218,Vinho rosé
+218,Vinho espumante
+219,Vinho tinto seco
+219,Vinho branco seco
+219,Vinho espumante
+219,Vinho licoroso e/ou fortificado
+220,Vinho tinto seco
+221,Vinho tinto seco
+221,Vinho branco seco
+221,Vinho rosé
+221,Vinho espumante
+222,Vinho tinto seco
+223,Vinho tinto seco
+223,Vinho branco seco
+223,Vinho rosé
+223,Vinho espumante
+223,Vinho demi-sec
+224,Não tenho preferência definida
+225,Vinho tinto seco
+225,Vinho branco seco
+225,Vinho rosé
+225,Vinho espumante
+225,Vinho suave
+225,Vinho demi-sec
+225,Vinho licoroso e/ou fortificado
+226,Vinho tinto seco
+226,Vinho branco seco
+226,Vinho espumante
+226,Vinho licoroso e/ou fortificado
+227,Vinho tinto seco
+227,Vinho espumante
+228,Vinho tinto seco
+228,Vinho branco seco
+228,Vinho rosé
+229,Vinho tinto seco
+229,Vinho espumante
+230,Vinho branco seco
+230,Vinho rosé
+230,Vinho espumante
+231,Vinho tinto seco
+231,Vinho branco seco
+231,Vinho espumante
+232,Vinho suave
+233,Vinho tinto seco
+233,Vinho rosé
+233,Vinho suave
+233,Vinho licoroso e/ou fortificado
+234,Vinho tinto seco
+234,Vinho espumante
+234,Vinho suave
+234,Vinho demi-sec
+235,Vinho rosé
+235,Vinho espumante
+235,Vinho suave
+236,Vinho tinto seco
+236,Vinho branco seco
+236,Vinho rosé
+237,Vinho tinto seco
+237,Vinho branco seco
+237,Vinho rosé
+238,Vinho tinto seco
+238,Vinho rosé
+238,Vinho demi-sec
+239,Vinho tinto seco
+239,Vinho branco seco
+239,Vinho rosé
+239,Vinho espumante
+239,Vinho licoroso e/ou fortificado
+240,Vinho tinto seco
+240,Vinho branco seco
+240,Vinho rosé
+240,Vinho espumante
+240,Vinho licoroso e/ou fortificado
+241,Vinho rosé
+241,Vinho espumante
+241,Vinho suave
+241,Vinho demi-sec
+242,Vinho suave
+243,Vinho rosé
+243,Vinho espumante
+243,Vinho suave
+244,Vinho tinto seco
+244,Vinho branco seco
+244,Vinho rosé
+245,Vinho suave
+246,Vinho branco seco
+246,Vinho rosé
+246,Vinho espumante
+247,Não tenho preferência definida
+248,Vinho branco seco
+248,Vinho rosé
+248,Vinho espumante
+248,Vinho suave
+249,Vinho tinto seco
+250,Vinho tinto seco
+250,Vinho branco seco
+250,Vinho rosé
+251,Vinho tinto seco
+251,Vinho demi-sec
+252,Vinho tinto seco
+252,Vinho branco seco
+252,Vinho rosé
+253,Vinho rosé
+253,Vinho espumante
+253,Vinho suave
+253,Vinho demi-sec
+254,Vinho tinto seco
+254,Vinho branco seco
+254,Vinho espumante
+255,Vinho suave
+256,Vinho tinto seco
+256,Vinho branco seco
+256,Vinho espumante
+257,Vinho tinto seco
+257,Vinho branco seco
+257,Vinho rosé
+257,Vinho espumante
+257,Vinho demi-sec
+258,Vinho tinto seco
+258,Vinho branco seco
+258,Vinho rosé
+258,Vinho espumante
+258,Vinho licoroso e/ou fortificado
+259,Vinho tinto seco
+259,Vinho branco seco
+259,Vinho espumante
+260,Vinho tinto seco
+260,Vinho espumante
+260,Vinho licoroso e/ou fortificado
+261,Vinho tinto seco
+261,Vinho branco seco
+261,Vinho rosé
+261,Vinho espumante
+261,Vinho demi-sec
+261,Vinho licoroso e/ou fortificado

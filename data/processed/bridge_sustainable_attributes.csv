@@ -1,0 +1,899 @@
+﻿respondent_id,option
+1,Origem das uvas (região/procedência)
+1,Preço
+1,Grau de inovação do produto
+2,Sustentabilidade ambiental (menor impacto no cultivo)
+2,Presença de certificações ou selos ambientais
+2,Grau de inovação do produto
+3,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+3,Origem das uvas (região/procedência)
+3,Preço
+3,Grau de inovação do produto
+4,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+4,Sustentabilidade ambiental (menor impacto no cultivo)
+5,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+5,Origem das uvas (região/procedência)
+5,Clareza e transparência das informações no rótulo
+5,Preço
+6,Sustentabilidade ambiental (menor impacto no cultivo)
+6,Preço
+7,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+7,Sustentabilidade ambiental (menor impacto no cultivo)
+7,Origem das uvas (região/procedência)
+7,Clareza e transparência das informações no rótulo
+7,Preço
+8,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+8,Sustentabilidade ambiental (menor impacto no cultivo)
+8,Origem das uvas (região/procedência)
+8,Clareza e transparência das informações no rótulo
+8,Presença de certificações ou selos ambientais
+8,Preço
+9,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+9,Origem das uvas (região/procedência)
+9,Presença de certificações ou selos ambientais
+10,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+10,Sustentabilidade ambiental (menor impacto no cultivo)
+10,Origem das uvas (região/procedência)
+10,Clareza e transparência das informações no rótulo
+10,Presença de certificações ou selos ambientais
+11,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+12,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+12,Clareza e transparência das informações no rótulo
+12,Presença de certificações ou selos ambientais
+12,Preço
+13,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+14,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+14,Presença de certificações ou selos ambientais
+14,Preço
+15,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+16,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+16,Sustentabilidade ambiental (menor impacto no cultivo)
+16,Origem das uvas (região/procedência)
+16,Clareza e transparência das informações no rótulo
+16,Presença de certificações ou selos ambientais
+16,Preço
+16,Grau de inovação do produto
+17,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+17,Sustentabilidade ambiental (menor impacto no cultivo)
+17,Origem das uvas (região/procedência)
+17,Clareza e transparência das informações no rótulo
+17,Presença de certificações ou selos ambientais
+17,Preço
+18,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+18,Preço
+19,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+20,Sustentabilidade ambiental (menor impacto no cultivo)
+20,Origem das uvas (região/procedência)
+20,Clareza e transparência das informações no rótulo
+20,Presença de certificações ou selos ambientais
+20,Preço
+21,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+21,Sustentabilidade ambiental (menor impacto no cultivo)
+22,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+22,Origem das uvas (região/procedência)
+22,Preço
+22,Grau de inovação do produto
+23,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+23,Clareza e transparência das informações no rótulo
+23,Presença de certificações ou selos ambientais
+24,Sustentabilidade ambiental (menor impacto no cultivo)
+24,Origem das uvas (região/procedência)
+25,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+25,Origem das uvas (região/procedência)
+25,Clareza e transparência das informações no rótulo
+25,Presença de certificações ou selos ambientais
+25,Grau de inovação do produto
+26,Sustentabilidade ambiental (menor impacto no cultivo)
+26,Clareza e transparência das informações no rótulo
+26,Presença de certificações ou selos ambientais
+27,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+27,Sustentabilidade ambiental (menor impacto no cultivo)
+27,Clareza e transparência das informações no rótulo
+27,Presença de certificações ou selos ambientais
+27,Preço
+28,Sustentabilidade ambiental (menor impacto no cultivo)
+28,Origem das uvas (região/procedência)
+28,Clareza e transparência das informações no rótulo
+28,Presença de certificações ou selos ambientais
+28,Preço
+29,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+29,Origem das uvas (região/procedência)
+29,Clareza e transparência das informações no rótulo
+30,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+30,Origem das uvas (região/procedência)
+30,Presença de certificações ou selos ambientais
+30,Preço
+31,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+31,Presença de certificações ou selos ambientais
+31,Preço
+32,Origem das uvas (região/procedência)
+32,Clareza e transparência das informações no rótulo
+33,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+33,Clareza e transparência das informações no rótulo
+33,Preço
+34,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+35,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+35,Clareza e transparência das informações no rótulo
+35,Presença de certificações ou selos ambientais
+35,Preço
+35,Grau de inovação do produto
+36,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+36,Sustentabilidade ambiental (menor impacto no cultivo)
+36,Preço
+37,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+37,Origem das uvas (região/procedência)
+38,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+38,Sustentabilidade ambiental (menor impacto no cultivo)
+38,Origem das uvas (região/procedência)
+38,Clareza e transparência das informações no rótulo
+38,Preço
+39,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+39,Clareza e transparência das informações no rótulo
+40,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+40,Sustentabilidade ambiental (menor impacto no cultivo)
+40,Presença de certificações ou selos ambientais
+40,Preço
+41,Sustentabilidade ambiental (menor impacto no cultivo)
+42,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+42,Sustentabilidade ambiental (menor impacto no cultivo)
+42,Clareza e transparência das informações no rótulo
+42,Presença de certificações ou selos ambientais
+42,Grau de inovação do produto
+43,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+43,Sustentabilidade ambiental (menor impacto no cultivo)
+43,Grau de inovação do produto
+44,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+44,Sustentabilidade ambiental (menor impacto no cultivo)
+44,Origem das uvas (região/procedência)
+45,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+45,Sustentabilidade ambiental (menor impacto no cultivo)
+45,Origem das uvas (região/procedência)
+46,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+46,Origem das uvas (região/procedência)
+46,Preço
+47,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+47,Origem das uvas (região/procedência)
+47,Preço
+48,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+48,Sustentabilidade ambiental (menor impacto no cultivo)
+48,Clareza e transparência das informações no rótulo
+49,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+49,Sustentabilidade ambiental (menor impacto no cultivo)
+49,Origem das uvas (região/procedência)
+49,Clareza e transparência das informações no rótulo
+49,Preço
+50,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+50,Origem das uvas (região/procedência)
+50,Clareza e transparência das informações no rótulo
+51,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+51,Sustentabilidade ambiental (menor impacto no cultivo)
+51,Clareza e transparência das informações no rótulo
+51,Presença de certificações ou selos ambientais
+52,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+52,Sustentabilidade ambiental (menor impacto no cultivo)
+52,Clareza e transparência das informações no rótulo
+52,Preço
+52,Grau de inovação do produto
+53,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+54,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+54,Clareza e transparência das informações no rótulo
+54,Presença de certificações ou selos ambientais
+54,Preço
+55,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+55,Presença de certificações ou selos ambientais
+55,Preço
+56,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+56,Sustentabilidade ambiental (menor impacto no cultivo)
+57,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+57,Sustentabilidade ambiental (menor impacto no cultivo)
+58,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+58,Sustentabilidade ambiental (menor impacto no cultivo)
+58,Clareza e transparência das informações no rótulo
+58,Preço
+59,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+59,Preço
+59,Grau de inovação do produto
+60,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+60,Sustentabilidade ambiental (menor impacto no cultivo)
+60,Origem das uvas (região/procedência)
+60,Clareza e transparência das informações no rótulo
+60,Presença de certificações ou selos ambientais
+61,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+61,Preço
+62,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+62,Sustentabilidade ambiental (menor impacto no cultivo)
+62,Clareza e transparência das informações no rótulo
+62,Presença de certificações ou selos ambientais
+63,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+63,Sustentabilidade ambiental (menor impacto no cultivo)
+63,Origem das uvas (região/procedência)
+63,Clareza e transparência das informações no rótulo
+63,Presença de certificações ou selos ambientais
+63,Grau de inovação do produto
+64,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+64,Sustentabilidade ambiental (menor impacto no cultivo)
+64,Clareza e transparência das informações no rótulo
+65,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+65,Preço
+66,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+66,Origem das uvas (região/procedência)
+66,Grau de inovação do produto
+67,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+67,Sustentabilidade ambiental (menor impacto no cultivo)
+67,Presença de certificações ou selos ambientais
+67,Preço
+67,Grau de inovação do produto
+68,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+68,Clareza e transparência das informações no rótulo
+68,Presença de certificações ou selos ambientais
+68,Preço
+69,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+69,Clareza e transparência das informações no rótulo
+69,Preço
+70,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+70,Clareza e transparência das informações no rótulo
+70,Preço
+71,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+71,Clareza e transparência das informações no rótulo
+71,Presença de certificações ou selos ambientais
+71,Preço
+72,Sustentabilidade ambiental (menor impacto no cultivo)
+72,Clareza e transparência das informações no rótulo
+72,Presença de certificações ou selos ambientais
+73,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+73,Sustentabilidade ambiental (menor impacto no cultivo)
+73,Clareza e transparência das informações no rótulo
+73,Presença de certificações ou selos ambientais
+73,Preço
+74,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+74,Sustentabilidade ambiental (menor impacto no cultivo)
+74,Origem das uvas (região/procedência)
+74,Presença de certificações ou selos ambientais
+75,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+75,Origem das uvas (região/procedência)
+75,Clareza e transparência das informações no rótulo
+75,Preço
+76,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+76,Sustentabilidade ambiental (menor impacto no cultivo)
+76,Origem das uvas (região/procedência)
+77,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+77,Origem das uvas (região/procedência)
+77,Clareza e transparência das informações no rótulo
+77,Preço
+78,Clareza e transparência das informações no rótulo
+78,Presença de certificações ou selos ambientais
+78,Preço
+79,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+79,Sustentabilidade ambiental (menor impacto no cultivo)
+79,Origem das uvas (região/procedência)
+79,Clareza e transparência das informações no rótulo
+79,Preço
+80,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+81,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+81,Sustentabilidade ambiental (menor impacto no cultivo)
+81,Clareza e transparência das informações no rótulo
+81,Presença de certificações ou selos ambientais
+81,Preço
+82,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+82,Sustentabilidade ambiental (menor impacto no cultivo)
+82,Presença de certificações ou selos ambientais
+82,Grau de inovação do produto
+83,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+83,Sustentabilidade ambiental (menor impacto no cultivo)
+83,Origem das uvas (região/procedência)
+83,Clareza e transparência das informações no rótulo
+83,Presença de certificações ou selos ambientais
+83,Preço
+84,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+85,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+85,Preço
+86,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+86,Sustentabilidade ambiental (menor impacto no cultivo)
+86,Origem das uvas (região/procedência)
+86,Clareza e transparência das informações no rótulo
+86,Presença de certificações ou selos ambientais
+86,Preço
+86,Grau de inovação do produto
+87,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+87,Clareza e transparência das informações no rótulo
+87,Preço
+88,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+88,Sustentabilidade ambiental (menor impacto no cultivo)
+89,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+89,Sustentabilidade ambiental (menor impacto no cultivo)
+89,Clareza e transparência das informações no rótulo
+89,Presença de certificações ou selos ambientais
+89,Preço
+90,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+90,Preço
+91,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+91,Sustentabilidade ambiental (menor impacto no cultivo)
+91,Origem das uvas (região/procedência)
+91,Clareza e transparência das informações no rótulo
+91,Presença de certificações ou selos ambientais
+92,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+92,Sustentabilidade ambiental (menor impacto no cultivo)
+92,Preço
+92,Grau de inovação do produto
+93,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+93,Clareza e transparência das informações no rótulo
+94,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+94,Sustentabilidade ambiental (menor impacto no cultivo)
+95,Clareza e transparência das informações no rótulo
+95,Presença de certificações ou selos ambientais
+95,Preço
+96,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+96,Sustentabilidade ambiental (menor impacto no cultivo)
+96,Origem das uvas (região/procedência)
+96,Clareza e transparência das informações no rótulo
+96,Presença de certificações ou selos ambientais
+96,Preço
+96,Grau de inovação do produto
+97,Preço
+98,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+98,Sustentabilidade ambiental (menor impacto no cultivo)
+98,Origem das uvas (região/procedência)
+98,Clareza e transparência das informações no rótulo
+98,Presença de certificações ou selos ambientais
+98,Grau de inovação do produto
+99,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+99,Clareza e transparência das informações no rótulo
+99,Presença de certificações ou selos ambientais
+100,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+100,Preço
+101,Sustentabilidade ambiental (menor impacto no cultivo)
+101,Origem das uvas (região/procedência)
+101,Preço
+102,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+102,Preço
+103,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+104,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+104,Sustentabilidade ambiental (menor impacto no cultivo)
+104,Presença de certificações ou selos ambientais
+105,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+106,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+106,Preço
+107,Sustentabilidade ambiental (menor impacto no cultivo)
+107,Origem das uvas (região/procedência)
+107,Presença de certificações ou selos ambientais
+108,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+108,Preço
+109,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+109,Sustentabilidade ambiental (menor impacto no cultivo)
+109,Clareza e transparência das informações no rótulo
+109,Presença de certificações ou selos ambientais
+109,Preço
+110,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+110,Sustentabilidade ambiental (menor impacto no cultivo)
+110,Clareza e transparência das informações no rótulo
+110,Preço
+111,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+111,Clareza e transparência das informações no rótulo
+111,Preço
+112,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+112,Sustentabilidade ambiental (menor impacto no cultivo)
+112,Origem das uvas (região/procedência)
+112,Clareza e transparência das informações no rótulo
+112,Presença de certificações ou selos ambientais
+112,Preço
+112,Grau de inovação do produto
+113,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+113,Origem das uvas (região/procedência)
+113,Clareza e transparência das informações no rótulo
+113,Presença de certificações ou selos ambientais
+114,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+114,Sustentabilidade ambiental (menor impacto no cultivo)
+114,Preço
+115,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+115,Origem das uvas (região/procedência)
+116,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+116,Clareza e transparência das informações no rótulo
+116,Preço
+117,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+117,Sustentabilidade ambiental (menor impacto no cultivo)
+117,Origem das uvas (região/procedência)
+117,Grau de inovação do produto
+118,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+118,Sustentabilidade ambiental (menor impacto no cultivo)
+118,Origem das uvas (região/procedência)
+118,Clareza e transparência das informações no rótulo
+118,Preço
+119,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+119,Clareza e transparência das informações no rótulo
+120,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+120,Sustentabilidade ambiental (menor impacto no cultivo)
+120,Clareza e transparência das informações no rótulo
+120,Presença de certificações ou selos ambientais
+120,Preço
+121,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+121,Clareza e transparência das informações no rótulo
+121,Grau de inovação do produto
+122,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+122,Sustentabilidade ambiental (menor impacto no cultivo)
+122,Clareza e transparência das informações no rótulo
+122,Presença de certificações ou selos ambientais
+122,Preço
+123,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+123,Origem das uvas (região/procedência)
+123,Clareza e transparência das informações no rótulo
+123,Presença de certificações ou selos ambientais
+123,Preço
+124,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+124,Origem das uvas (região/procedência)
+124,Presença de certificações ou selos ambientais
+124,Preço
+125,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+125,Clareza e transparência das informações no rótulo
+125,Preço
+126,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+126,Sustentabilidade ambiental (menor impacto no cultivo)
+126,Presença de certificações ou selos ambientais
+127,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+127,Sustentabilidade ambiental (menor impacto no cultivo)
+127,Origem das uvas (região/procedência)
+127,Clareza e transparência das informações no rótulo
+127,Presença de certificações ou selos ambientais
+127,Grau de inovação do produto
+128,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+128,Clareza e transparência das informações no rótulo
+128,Presença de certificações ou selos ambientais
+128,Preço
+129,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+129,Origem das uvas (região/procedência)
+129,Preço
+130,Origem das uvas (região/procedência)
+130,Preço
+131,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+131,Sustentabilidade ambiental (menor impacto no cultivo)
+131,Origem das uvas (região/procedência)
+131,Clareza e transparência das informações no rótulo
+131,Preço
+132,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+132,Sustentabilidade ambiental (menor impacto no cultivo)
+133,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+133,Origem das uvas (região/procedência)
+134,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+134,Presença de certificações ou selos ambientais
+134,Preço
+135,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+135,Preço
+136,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+136,Sustentabilidade ambiental (menor impacto no cultivo)
+136,Preço
+137,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+137,Sustentabilidade ambiental (menor impacto no cultivo)
+137,Origem das uvas (região/procedência)
+137,Clareza e transparência das informações no rótulo
+137,Presença de certificações ou selos ambientais
+137,Preço
+138,Sustentabilidade ambiental (menor impacto no cultivo)
+138,Clareza e transparência das informações no rótulo
+139,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+139,Sustentabilidade ambiental (menor impacto no cultivo)
+139,Clareza e transparência das informações no rótulo
+139,Presença de certificações ou selos ambientais
+139,Grau de inovação do produto
+140,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+140,Sustentabilidade ambiental (menor impacto no cultivo)
+140,Clareza e transparência das informações no rótulo
+140,Presença de certificações ou selos ambientais
+140,Preço
+141,Sustentabilidade ambiental (menor impacto no cultivo)
+141,Clareza e transparência das informações no rótulo
+141,Presença de certificações ou selos ambientais
+142,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+142,Presença de certificações ou selos ambientais
+143,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+143,Sustentabilidade ambiental (menor impacto no cultivo)
+143,Origem das uvas (região/procedência)
+143,Clareza e transparência das informações no rótulo
+143,Grau de inovação do produto
+144,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+144,Sustentabilidade ambiental (menor impacto no cultivo)
+144,Preço
+145,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+145,Origem das uvas (região/procedência)
+145,Clareza e transparência das informações no rótulo
+145,Preço
+146,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+146,Sustentabilidade ambiental (menor impacto no cultivo)
+146,Clareza e transparência das informações no rótulo
+146,Presença de certificações ou selos ambientais
+147,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+147,Sustentabilidade ambiental (menor impacto no cultivo)
+147,Clareza e transparência das informações no rótulo
+147,Presença de certificações ou selos ambientais
+147,Preço
+148,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+148,Sustentabilidade ambiental (menor impacto no cultivo)
+148,Preço
+149,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+149,Origem das uvas (região/procedência)
+149,Clareza e transparência das informações no rótulo
+149,Presença de certificações ou selos ambientais
+150,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+150,Sustentabilidade ambiental (menor impacto no cultivo)
+150,Origem das uvas (região/procedência)
+150,Presença de certificações ou selos ambientais
+151,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+151,Presença de certificações ou selos ambientais
+151,Preço
+152,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+152,Sustentabilidade ambiental (menor impacto no cultivo)
+152,Origem das uvas (região/procedência)
+152,Clareza e transparência das informações no rótulo
+152,Presença de certificações ou selos ambientais
+152,Preço
+153,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+153,Sustentabilidade ambiental (menor impacto no cultivo)
+153,Origem das uvas (região/procedência)
+153,Clareza e transparência das informações no rótulo
+153,Presença de certificações ou selos ambientais
+154,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+154,Origem das uvas (região/procedência)
+154,Clareza e transparência das informações no rótulo
+154,Presença de certificações ou selos ambientais
+155,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+155,Origem das uvas (região/procedência)
+155,Preço
+156,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+156,Origem das uvas (região/procedência)
+156,Preço
+157,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+157,Sustentabilidade ambiental (menor impacto no cultivo)
+157,Origem das uvas (região/procedência)
+157,Presença de certificações ou selos ambientais
+157,Preço
+158,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+158,Origem das uvas (região/procedência)
+159,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+159,Origem das uvas (região/procedência)
+159,Clareza e transparência das informações no rótulo
+160,Clareza e transparência das informações no rótulo
+160,Presença de certificações ou selos ambientais
+161,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+161,Clareza e transparência das informações no rótulo
+162,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+162,Sustentabilidade ambiental (menor impacto no cultivo)
+162,Clareza e transparência das informações no rótulo
+162,Presença de certificações ou selos ambientais
+163,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+163,Sustentabilidade ambiental (menor impacto no cultivo)
+163,Clareza e transparência das informações no rótulo
+163,Presença de certificações ou selos ambientais
+163,Preço
+164,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+164,Origem das uvas (região/procedência)
+165,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+165,Preço
+166,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+166,Sustentabilidade ambiental (menor impacto no cultivo)
+166,Preço
+167,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+167,Clareza e transparência das informações no rótulo
+167,Preço
+168,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+168,Origem das uvas (região/procedência)
+168,Clareza e transparência das informações no rótulo
+168,Preço
+169,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+169,Clareza e transparência das informações no rótulo
+169,Preço
+170,Sustentabilidade ambiental (menor impacto no cultivo)
+170,Presença de certificações ou selos ambientais
+171,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+171,Sustentabilidade ambiental (menor impacto no cultivo)
+171,Presença de certificações ou selos ambientais
+171,Preço
+171,Grau de inovação do produto
+172,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+172,Preço
+173,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+173,Sustentabilidade ambiental (menor impacto no cultivo)
+173,Presença de certificações ou selos ambientais
+173,Preço
+174,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+174,Clareza e transparência das informações no rótulo
+174,Preço
+175,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+175,Origem das uvas (região/procedência)
+175,Clareza e transparência das informações no rótulo
+175,Preço
+176,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+176,Clareza e transparência das informações no rótulo
+176,Presença de certificações ou selos ambientais
+176,Preço
+177,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+177,Origem das uvas (região/procedência)
+177,Clareza e transparência das informações no rótulo
+177,Preço
+178,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+178,Sustentabilidade ambiental (menor impacto no cultivo)
+178,Origem das uvas (região/procedência)
+178,Clareza e transparência das informações no rótulo
+178,Presença de certificações ou selos ambientais
+178,Preço
+179,Origem das uvas (região/procedência)
+179,Clareza e transparência das informações no rótulo
+179,Preço
+180,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+180,Sustentabilidade ambiental (menor impacto no cultivo)
+180,Origem das uvas (região/procedência)
+180,Preço
+181,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+181,Origem das uvas (região/procedência)
+182,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+182,Origem das uvas (região/procedência)
+182,Clareza e transparência das informações no rótulo
+182,Preço
+182,Grau de inovação do produto
+183,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+183,Origem das uvas (região/procedência)
+183,Preço
+184,Origem das uvas (região/procedência)
+184,Preço
+185,Sustentabilidade ambiental (menor impacto no cultivo)
+185,Clareza e transparência das informações no rótulo
+185,Presença de certificações ou selos ambientais
+186,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+186,Sustentabilidade ambiental (menor impacto no cultivo)
+186,Origem das uvas (região/procedência)
+186,Clareza e transparência das informações no rótulo
+186,Presença de certificações ou selos ambientais
+186,Preço
+186,Grau de inovação do produto
+187,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+187,Sustentabilidade ambiental (menor impacto no cultivo)
+187,Origem das uvas (região/procedência)
+187,Clareza e transparência das informações no rótulo
+187,Presença de certificações ou selos ambientais
+188,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+188,Clareza e transparência das informações no rótulo
+189,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+189,Sustentabilidade ambiental (menor impacto no cultivo)
+189,Clareza e transparência das informações no rótulo
+190,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+190,Sustentabilidade ambiental (menor impacto no cultivo)
+190,Clareza e transparência das informações no rótulo
+190,Presença de certificações ou selos ambientais
+191,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+191,Sustentabilidade ambiental (menor impacto no cultivo)
+191,Origem das uvas (região/procedência)
+191,Grau de inovação do produto
+192,Clareza e transparência das informações no rótulo
+193,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+193,Clareza e transparência das informações no rótulo
+193,Preço
+194,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+194,Sustentabilidade ambiental (menor impacto no cultivo)
+194,Origem das uvas (região/procedência)
+194,Clareza e transparência das informações no rótulo
+194,Presença de certificações ou selos ambientais
+195,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+195,Sustentabilidade ambiental (menor impacto no cultivo)
+195,Origem das uvas (região/procedência)
+195,Clareza e transparência das informações no rótulo
+195,Preço
+196,Clareza e transparência das informações no rótulo
+196,Preço
+196,Grau de inovação do produto
+197,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+197,Origem das uvas (região/procedência)
+197,Clareza e transparência das informações no rótulo
+197,Presença de certificações ou selos ambientais
+198,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+198,Origem das uvas (região/procedência)
+198,Presença de certificações ou selos ambientais
+199,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+199,Sustentabilidade ambiental (menor impacto no cultivo)
+200,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+200,Origem das uvas (região/procedência)
+200,Clareza e transparência das informações no rótulo
+200,Preço
+200,Grau de inovação do produto
+201,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+201,Origem das uvas (região/procedência)
+201,Clareza e transparência das informações no rótulo
+201,Preço
+202,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+202,Origem das uvas (região/procedência)
+202,Preço
+203,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+203,Clareza e transparência das informações no rótulo
+203,Preço
+204,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+205,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+205,Sustentabilidade ambiental (menor impacto no cultivo)
+205,Origem das uvas (região/procedência)
+205,Clareza e transparência das informações no rótulo
+205,Presença de certificações ou selos ambientais
+205,Preço
+205,Grau de inovação do produto
+206,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+206,Sustentabilidade ambiental (menor impacto no cultivo)
+206,Origem das uvas (região/procedência)
+206,Clareza e transparência das informações no rótulo
+206,Presença de certificações ou selos ambientais
+206,Preço
+207,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+208,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+208,Origem das uvas (região/procedência)
+208,Preço
+209,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+209,Sustentabilidade ambiental (menor impacto no cultivo)
+209,Origem das uvas (região/procedência)
+209,Presença de certificações ou selos ambientais
+209,Grau de inovação do produto
+210,Sustentabilidade ambiental (menor impacto no cultivo)
+210,Origem das uvas (região/procedência)
+210,Presença de certificações ou selos ambientais
+211,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+212,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+212,Clareza e transparência das informações no rótulo
+212,Preço
+213,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+213,Sustentabilidade ambiental (menor impacto no cultivo)
+213,Clareza e transparência das informações no rótulo
+213,Presença de certificações ou selos ambientais
+213,Preço
+214,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+214,Clareza e transparência das informações no rótulo
+214,Preço
+215,Sustentabilidade ambiental (menor impacto no cultivo)
+215,Clareza e transparência das informações no rótulo
+215,Presença de certificações ou selos ambientais
+216,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+216,Origem das uvas (região/procedência)
+216,Presença de certificações ou selos ambientais
+217,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+217,Sustentabilidade ambiental (menor impacto no cultivo)
+217,Preço
+217,Grau de inovação do produto
+218,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+218,Presença de certificações ou selos ambientais
+218,Preço
+219,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+219,Preço
+220,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+220,Sustentabilidade ambiental (menor impacto no cultivo)
+220,Presença de certificações ou selos ambientais
+221,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+221,Preço
+221,Grau de inovação do produto
+222,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+223,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+223,Sustentabilidade ambiental (menor impacto no cultivo)
+223,Clareza e transparência das informações no rótulo
+223,Presença de certificações ou selos ambientais
+223,Preço
+224,Sustentabilidade ambiental (menor impacto no cultivo)
+225,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+225,Origem das uvas (região/procedência)
+225,Clareza e transparência das informações no rótulo
+225,Preço
+226,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+226,Sustentabilidade ambiental (menor impacto no cultivo)
+226,Clareza e transparência das informações no rótulo
+227,Sustentabilidade ambiental (menor impacto no cultivo)
+227,Origem das uvas (região/procedência)
+227,Preço
+228,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+228,Origem das uvas (região/procedência)
+228,Presença de certificações ou selos ambientais
+228,Preço
+229,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+229,Clareza e transparência das informações no rótulo
+229,Preço
+230,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+230,Sustentabilidade ambiental (menor impacto no cultivo)
+230,Clareza e transparência das informações no rótulo
+230,Presença de certificações ou selos ambientais
+231,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+231,Sustentabilidade ambiental (menor impacto no cultivo)
+231,Clareza e transparência das informações no rótulo
+231,Preço
+231,Grau de inovação do produto
+232,Sustentabilidade ambiental (menor impacto no cultivo)
+233,Sustentabilidade ambiental (menor impacto no cultivo)
+233,Clareza e transparência das informações no rótulo
+233,Presença de certificações ou selos ambientais
+234,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+234,Origem das uvas (região/procedência)
+234,Clareza e transparência das informações no rótulo
+234,Presença de certificações ou selos ambientais
+235,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+235,Sustentabilidade ambiental (menor impacto no cultivo)
+235,Origem das uvas (região/procedência)
+235,Clareza e transparência das informações no rótulo
+235,Grau de inovação do produto
+236,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+236,Preço
+237,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+237,Origem das uvas (região/procedência)
+237,Clareza e transparência das informações no rótulo
+238,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+238,Sustentabilidade ambiental (menor impacto no cultivo)
+238,Clareza e transparência das informações no rótulo
+238,Presença de certificações ou selos ambientais
+239,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+239,Sustentabilidade ambiental (menor impacto no cultivo)
+239,Origem das uvas (região/procedência)
+239,Clareza e transparência das informações no rótulo
+239,Preço
+240,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+240,Sustentabilidade ambiental (menor impacto no cultivo)
+240,Presença de certificações ou selos ambientais
+241,Sustentabilidade ambiental (menor impacto no cultivo)
+241,Presença de certificações ou selos ambientais
+241,Preço
+242,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+242,Sustentabilidade ambiental (menor impacto no cultivo)
+242,Clareza e transparência das informações no rótulo
+243,Sustentabilidade ambiental (menor impacto no cultivo)
+243,Presença de certificações ou selos ambientais
+243,Grau de inovação do produto
+244,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+244,Clareza e transparência das informações no rótulo
+245,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+246,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+246,Sustentabilidade ambiental (menor impacto no cultivo)
+246,Clareza e transparência das informações no rótulo
+246,Presença de certificações ou selos ambientais
+246,Preço
+247,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+247,Origem das uvas (região/procedência)
+247,Clareza e transparência das informações no rótulo
+247,Presença de certificações ou selos ambientais
+248,Sustentabilidade ambiental (menor impacto no cultivo)
+248,Clareza e transparência das informações no rótulo
+248,Preço
+249,Sustentabilidade ambiental (menor impacto no cultivo)
+249,Clareza e transparência das informações no rótulo
+249,Presença de certificações ou selos ambientais
+249,Preço
+250,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+250,Clareza e transparência das informações no rótulo
+250,Preço
+251,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+251,Clareza e transparência das informações no rótulo
+251,Presença de certificações ou selos ambientais
+251,Preço
+252,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+252,Sustentabilidade ambiental (menor impacto no cultivo)
+252,Clareza e transparência das informações no rótulo
+252,Preço
+253,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+253,Preço
+254,Sustentabilidade ambiental (menor impacto no cultivo)
+254,Origem das uvas (região/procedência)
+255,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+255,Sustentabilidade ambiental (menor impacto no cultivo)
+255,Origem das uvas (região/procedência)
+255,Clareza e transparência das informações no rótulo
+255,Presença de certificações ou selos ambientais
+255,Preço
+255,Grau de inovação do produto
+256,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+256,Sustentabilidade ambiental (menor impacto no cultivo)
+256,Origem das uvas (região/procedência)
+256,Clareza e transparência das informações no rótulo
+256,Grau de inovação do produto
+257,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+257,Clareza e transparência das informações no rótulo
+257,Grau de inovação do produto
+258,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+258,Clareza e transparência das informações no rótulo
+258,Preço
+259,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+259,Origem das uvas (região/procedência)
+259,Presença de certificações ou selos ambientais
+259,Preço
+260,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+260,Origem das uvas (região/procedência)
+260,Presença de certificações ou selos ambientais
+260,Preço
+261,"Qualidade sensorial (sabor, aroma, equilíbrio)"
+261,Sustentabilidade ambiental (menor impacto no cultivo)
+261,Clareza e transparência das informações no rótulo
+261,Presença de certificações ou selos ambientais
+261,Grau de inovação do produto
