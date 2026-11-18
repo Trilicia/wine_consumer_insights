@@ -16,7 +16,7 @@ agregados ou substituídos por informações demonstrativas.
 
 ## Dashboard interativo
 
-[🔗 Acessar o dashboard PIWI Consumer Insights](https://trilicia.github.io/piwi_consumer_insights/dashboard/)
+[🔗 Acessar o dashboard Wine Consumer Insights](https://trilicia.github.io/wine_consumer_insights/dashboard/)
 
 O dashboard permite explorar os resultados por região, faixa etária, perfil de consumo, frequência e escolaridade. Os filtros atualizam automaticamente os indicadores e gráficos.
 
@@ -56,19 +56,19 @@ Além da análise, o projeto busca demonstrar competências profissionais em:
 
 ## Etapas do projeto
 
-* [x] Estruturação do projeto
-* [x] Carregamento da base
-* [x] Auditoria inicial
-* [x] Limpeza e padronização
-* [x] Tratamento das perguntas de múltipla escolha
-* [x] Criação de variáveis analíticas
-* [x] Modelagem do banco SQLite
-* [x] Criação de views e consultas SQL
-* [x] Testes de qualidade dos dados
-* [x] Análise exploratória
-* [x] Criação dos gráficos
-* [x] Construção do dashboard interativo
-* [x] Elaboração das recomendações finais
+* [X] Estruturação do projeto
+* [X] Carregamento da base
+* [X] Auditoria inicial
+* [X] Limpeza e padronização
+* [X] Tratamento das perguntas de múltipla escolha
+* [X] Criação de variáveis analíticas
+* [X] Modelagem do banco SQLite
+* [X] Criação de views e consultas SQL
+* [X] Testes de qualidade dos dados
+* [X] Análise exploratória
+* [X] Criação dos gráficos
+* [X] Construção do dashboard interativo
+* [X] Elaboração das recomendações finais
 
 ## Sobre a base de dados
 
@@ -100,7 +100,7 @@ A base original não é alterada durante o processamento. Todas as transformaç�
 ## Estrutura do projeto
 
 ```text
-piwi_consumer_insights/
+wine_consumer_insights/
 ├── dashboard/
 ├── data/
 │   ├── processed/
@@ -301,4 +301,3 @@ O projeto inclui verificações para identificar:
 * respostas livres ou não classificadas.
 
 As respostas não reconhecidas são preservadas para revisão e não são descartadas silenciosamente.
-
