@@ -14,6 +14,18 @@ Para preservar o ineditismo da pesquisa original, perguntas,
 variáveis e resultados específicos foram omitidos, anonimizados,
 agregados ou substituídos por informações demonstrativas.
 
+## Principais resultados
+
+> Base de portfólio com 261 respostas. É uma amostra de conveniência, concentrada na Região Sul (72,4%), e os resultados não devem ser generalizados para toda a população.
+
+- **82,4%** dos participantes consideram muito ou extremamente importante comunicar a sustentabilidade no rótulo (média de 3,18 em uma escala de 1 a 4).
+- Mesmo assim, a sustentabilidade **não decide a compra sozinha**: só 11,9% citaram práticas sustentáveis como fator de compra, contra 77,8% que citaram o preço.
+- Em vinhos sustentáveis, o atributo mais valorizado é a **qualidade sensorial (86,2%)**, à frente de preço (55,6%) e clareza das informações no rótulo (54,8%).
+- A segmentação identificou dois grupos prioritários, que somam mais de 80% da amostra: **"Alta prioridade"** (40,6%; consomem cerca de 10 vezes por mês e valorizam o rótulo) e **"Potencial sustentável"** (41,8%; valorizam o rótulo, mas consomem cerca de 1 vez por mês).
+- **Supermercados** são o principal canal de compra (85,4%), seguidos de lojas físicas especializadas (41,0%).
+
+**Recomendação:** posicionar a sustentabilidade como complemento, e não substituto, de qualidade sensorial e preço competitivo, com informação clara no rótulo e prioridade para o canal supermercado.
+
 ## Dashboard interativo
 
 [🔗 Acessar o dashboard Wine Consumer Insights](https://trilicia.github.io/wine_consumer_insights/dashboard/)
